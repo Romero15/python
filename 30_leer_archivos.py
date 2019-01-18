@@ -1,0 +1,17 @@
+#Leer archivo de texto con python
+f = open("demofile.txt", "r")
+print(f.read())
+print("Se puede especificar el numero de caracteres a devolver (5)")
+f = open("demofile.txt", "r")
+print(f.read(5))
+print("Se puede devolver una linea entera")
+f = open("demofile.txt", "r")
+print(f.readline())
+print("Se pueden devolver dos lineas usando readline dos veces")
+f = open("demofile.txt", "r")
+print(f.readline())
+print(f.readline())
+print("Tambien se puede leer linea a linea con un bucle for")
+f = open("demofile.txt", "r")
+for x in f:
+  print(x) 

@@ -1,0 +1,23 @@
+Para consultar la versión de python
+>> python --version (Si devuelve error es que no está instalado phyton)
+***************************
+*** Chuleta de comandos ***
+***************************
+-Mostrar version de python: python --version
+-Abrir consola de python: python
+-Cerrar consola: exit()
+-Imprimir en pantalla: print("")
+
+
+Los archviso python "*.py" se ejecutan directamente en consola:
+>> python *.py
+
+Los archivos .py se pueden escribir desde cualquier editor de texto guardandolos con la extension apropiada (.py)
+
+Crear "hola mundo" en python:
+	-Creamos el archivo helloworld.py y lo editamos con notepad+
+	-Escribimos:
+		print("Hello, World!")
+	-Lo ejecutamos en la consola desde la ruta donde está y nos devolverá por consola:
+		Hello, World!
+	
